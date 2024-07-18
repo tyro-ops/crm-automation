@@ -1,0 +1,27 @@
+{
+    "loginPage": {
+      "usernameField": "input[name='username']",
+      "passwordField": "input[name='password']",
+      "loginButton": "button[type='submit']"
+    },
+    "dashboardPage": {
+      "LoginMessage": "//p[contains(.,'Time at Work')]"
+    },
+    "registrationPage": {
+      "pimMenu": "//a[contains(@href, 'PimModule')]",
+      "addEmployeeButton": "//button[text()=' Add ']",
+      "firstNameField": "input[name='firstName']",
+      "lastNameField": "input[name='lastName']",
+      "saveButton": "//button[text()=' Save ']",
+      "adminMenu": "//a[contains(@href, 'AdminModule')]",
+      "UserEmployeeDropDown":"(//div[contains(text(),'-- Select --')])[1]",
+      "EmployeeNameField": "input[placeholder='Type for hints...']",
+      "StatusDropDown":"(//div[contains(text(),'-- Select --')])[2]",
+      "usernameField": "(//input[@class='oxd-input oxd-input--active'])[2]",
+      "passwordField": "(//input[@type='password'])[1]",
+      "confirmPasswordField": "(//input[@type='password'])[2]",
+      "essRole": "#essrole",
+      "saveUserButton": "//button[text()=' Save ']"
+    }
+  }
+  

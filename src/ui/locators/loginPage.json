@@ -1,0 +1,9 @@
+{
+    "usernameInput": "#username",
+    "passwordInput": "#password",
+    "loginButton": "#login-button",
+    "logoutButton": "#logout-button",
+    "mfaInput": "#mfa-code",
+    "submitMfaButton": "#submit-mfa-button"
+  }
+  
