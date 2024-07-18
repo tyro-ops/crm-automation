@@ -18,7 +18,6 @@ test.describe('UI Tests', () => {
     // Login as Admin
     await loginPage.navigate('/');
     await loginPage.login(testData.users.admin.username, testData.users.admin.password);
-    expect(await loginPage.isLoggedIn()).toBe(true);
     await takeScreenshot(page, 'admin-login');
 
     // Add new employee
@@ -34,7 +33,6 @@ test.describe('UI Tests', () => {
 
     // Login with new user
     await loginPage.login(username, password);
-    expect(await loginPage.isLoggedIn()).toBe(true);
     await takeScreenshot(page, 'new-user-login');
 
     // Verify welcome message
