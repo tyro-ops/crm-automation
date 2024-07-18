@@ -1,8 +1,7 @@
 node_modules/
 /test-results/
-test-results/
-screenshots/
-reports/
+/screenshots/
+/reports/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
