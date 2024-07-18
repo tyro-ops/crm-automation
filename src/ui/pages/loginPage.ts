@@ -14,7 +14,7 @@ export default class LoginPage extends BasePage {
 
   async isLoggedIn(): Promise<boolean> {
     await new Promise(f => setTimeout(f, 10000));
-    return this.page.isVisible(this.locators.LoginMessage);
+    return this.page.isVisible(this.locators.pimMenu);
   }
 
   async isLoginButtonVisible(): Promise<boolean> {

@@ -20,13 +20,13 @@ export default defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 1 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 5 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [["html", { open: "never" }], ["line"]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     baseURL: 'https://opensource-demo.orangehrmlive.com',
-    headless: false,
+    headless: true,
     viewport: { width: 1280, height: 720 },
     screenshot: "only-on-failure",
     video: "retain-on-failure",

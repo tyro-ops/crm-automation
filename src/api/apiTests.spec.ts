@@ -37,7 +37,7 @@ test.describe('API Tests', () => {
         const updatedData = { name: `${user.name} Updated` };
         const response = await apiClient.put(`/users/${user.id}`, updatedData);
         expect(response.status).toBe(200);
-        expect(response.data.data).toHaveProperty('name', updatedData.name); // Adjusted to match the actual response structure
+        expect(response.data).toHaveProperty('name', updatedData.name); // Adjusted to match the actual response structure
       });
     });
 

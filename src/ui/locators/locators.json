@@ -20,8 +20,12 @@
       "usernameField": "(//input[@class='oxd-input oxd-input--active'])[2]",
       "passwordField": "(//input[@type='password'])[1]",
       "confirmPasswordField": "(//input[@type='password'])[2]",
-      "essRole": "#essrole",
-      "saveUserButton": "//button[text()=' Save ']"
+      "saveUserButton": "//button[text()=' Save ']",
+      "usernameSrch" : "(//input[@class='oxd-input oxd-input--active'])[2]",
+      "SearchButton" :"//button[text()=' Search ']",
+      "UserCheckBox" :".oxd-icon.bi-check.oxd-checkbox-input-icon",
+      "mfaInput": "#mfa-code",
+      "submitMfaButton": "#submit-mfa-button"
     }
   }
   

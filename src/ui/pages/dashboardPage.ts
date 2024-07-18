@@ -7,11 +7,11 @@ export default class DashboardPage extends BasePage {
   }
 
   async getWelcomeMessage(): Promise<string> {
-    return await this.page.textContent(this.locators.welcomeMessage) || '';
+    return await this.page.textContent(this.locators.pimMenu) || '';
   }
 
   async logout() {
-    await this.page.click(this.locators.welcomeMessage);
+    await this.page.click(this.locators.pimMenu);
     await this.page.click('text=Logout');
   }
 }

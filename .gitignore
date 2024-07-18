@@ -1,5 +1,14 @@
 node_modules/
 /test-results/
+test-results/
+/screenshots/
+/reports/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+package-lock.json
+report.json
+report.html
+test-results.json
+```
+

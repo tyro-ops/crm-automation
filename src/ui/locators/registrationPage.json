@@ -1,7 +1,0 @@
-{
-    "usernameInput": "#username",
-    "passwordInput": "#password",
-    "emailInput": "#email",
-    "registerButton": "#registerButton",
-    "welcomeMessage": "#welcomeMessage"
-  }
